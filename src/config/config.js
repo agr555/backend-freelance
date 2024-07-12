@@ -3,7 +3,8 @@ const config = {
     env: process.env.ENV,
     port: 3300,
     db: {
-        dbUrl: 'mongodb://127.0.0.1:27017',
+        /*dbUrl: 'mongodb://127.0.0.1:27017',*/
+        dbUrl: process.env.MONGODB_URI,
         dbName: 'freelancers',
         dbHost: 'localhost',
         dbPort: 27017,
