@@ -22,8 +22,8 @@ const config = {
         middle: 'middle',
         senior: 'senior',
     },
-    freelancerAvatarsPath: '/images/freelancers/avatars/',
-    defaultFreelancerAvatar: '/images/freelancers/avatar-stub.png',
+    freelancerAvatarsPath: '/public/images/freelancers/avatars/',
+    defaultFreelancerAvatar: '/public/images/freelancers/avatar-stub.png',
 };
 
 module.exports = config;
