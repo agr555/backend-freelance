@@ -2,9 +2,9 @@
   "name": "itlogia_backend",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,7 @@
     "bcrypt": "~5.0.1",
     "cors": "~2.8.5",
     "crypto": "~1.0.1",
+    "dotenv": "^16.4.5",
     "express": "~4.18.1",
     "jsonwebtoken": "~9.0.2",
     "mongoose": "~6.12.3",
